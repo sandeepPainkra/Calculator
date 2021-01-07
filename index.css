@@ -1,0 +1,55 @@
+body {
+   margin: 0;
+   padding: 0;
+   font-family: sans-serif;
+}
+html{
+   font-size: 15px;
+}
+*{
+   box-sizing: border-box;
+}
+.main_div {
+   width: 100%;
+   height: 100vh;
+   background-color: rgb(124, 196, 196);
+   display: grid;
+   place-items: center;
+}
+.center_div {
+   width: 300px;
+   height: 350px;
+   background-color: aquamarine;
+   border-radius: 50px;
+   background: #55b9f3;
+   box-shadow: 22px 22px 60px #224a61, -22px -22px 60px #88ffff;
+   padding: 2rem;
+}
+
+.main_div .center_div .answer{
+   width: 100%;
+   padding: 0.8rem;
+   border-radius: 5rem;
+   margin-bottom: 1.5rem;
+   border: 1px solid gray;
+}
+form input{
+   width: 3rem;
+   height: 3rem;
+   margin: 0.2rem 0;
+   border-radius: 5px;
+}
+form .clear{
+   width: 100%;
+}
+.align{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+input{
+   font-size: 1.5rem;
+   font-weight: 600;
+   color: gray;
+   outline: none;
+}
